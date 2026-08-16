@@ -78,7 +78,6 @@ Set the following values:
 `PermitRootLogin no`  
 `PasswordAuthentication no`  
 `PubkeyAuthentication yes`  
-`ChallengeResponseAuthentication no`  
 
 Restart SSH:
 
