@@ -2,7 +2,7 @@
 
 # ============================================
 # Server Health Check & Backup Script
-# Author: Your Name
+# Author: ToniByte
 # Description: Checks system status and creates backups
 # ============================================
 
