@@ -137,6 +137,23 @@ Manual test
 
 `~/scripts/server-health.sh`  
 
+```
+devops@PC:~/linux-server-setup/scripts$ ./server-health.sh
+[2026-08-16 18:48:36] ===== Starting server health check =====
+[2026-08-16 18:48:36] --- Disk Usage ---
+Root partition: 1% used (1.1G of 1007G)
+[2026-08-16 18:48:36] --- Memory Usage ---
+Memory: 1.0Gi used of 7.7Gi
+[2026-08-16 18:48:36] --- CPU Load ---
+Load average: 0.09, 0.17, 0.13
+[2026-08-16 18:48:36] --- Service Status ---
+[2026-08-16 18:48:36] SSH service: running
+[2026-08-16 18:48:36] --- Creating backup ---
+[2026-08-16 18:48:36] Backup created: /home/devops/backups/backup_2026-08-16_18-48-36.tar.gz
+[2026-08-16 18:48:36] --- Cleaning old backups ---
+[2026-08-16 18:48:36] Kept last 5 backups
+[2026-08-16 18:48:36] ===== Health check finished =====```  
+
 Schedule with cron
 
 `crontab -e`  
