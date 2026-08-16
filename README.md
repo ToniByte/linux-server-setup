@@ -28,7 +28,7 @@ This repository documents a clean, secure baseline configuration that follows co
 
 ### 1.1 Update the system
 
-```bash sudo apt update && sudo apt upgrade -y```
+```sudo apt update && sudo apt upgrade -y```
 
 Why: Always start with a fully patched system.
 
