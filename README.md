@@ -28,14 +28,14 @@ This repository documents a clean, secure baseline configuration that follows co
 
 ### 1.1 Update the system
 
-`sudo apt update && sudo apt upgrade -y`
+```sudo apt update && sudo apt upgrade -y```
 
 Why: Always start with a fully patched system.
 
 ### 1.2 Create a dedicated user
 
-`sudo adduser devops`  
-`sudo usermod -aG sudo devops`
+```sudo adduser devops```  
+```sudo usermod -aG sudo devops```
 
 • Working as root is dangerous. Daily operations should be done from a regular user with sudo privileges.
 
