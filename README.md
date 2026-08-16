@@ -48,6 +48,23 @@ Switch to the new user:
 
 `mkdir -p ~/.ssh`  
 `chmod 700 ~/.ssh`  
+
+Create public key.
+Run the command in the terminal on your PC.
+
+`ssh-keygen -t ed25519`
+
+After that, two files will be created:
+
+~/.ssh/id_ed25519
+~/.ssh/id_ed25519.pub
+
+Copy the contents of this file:
+
+`~/.ssh/id_ed25519.pub`
+
+And paste here:
+
 `nano ~/.ssh/authorized_keys`  
 `chmod 600 ~/.ssh/authorized_keys`  
 
