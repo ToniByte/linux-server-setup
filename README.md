@@ -72,7 +72,7 @@ sudo ufw enable
 sudo ufw status verbose
 Why:
 By default, a server should deny all incoming traffic except explicitly allowed ports (in this case only SSH).
-
+ 
 4. Intrusion Prevention (fail2ban)
 Bashsudo apt install fail2ban -y
 sudo systemctl enable fail2ban
