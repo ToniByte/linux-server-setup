@@ -86,14 +86,14 @@ sudo ufw status verbose`
 
 ## 4. Intrusion Prevention (fail2ban)
 
-`sudo apt install fail2ban -y
-sudo systemctl enable fail2ban
-sudo systemctl start fail2ban`
+`sudo apt install fail2ban -y`
+`sudo systemctl enable fail2ban`
+`sudo systemctl start fail2ban`
 
 Check status:
 
-`sudo fail2ban-client status
-sudo fail2ban-client status sshd`
+`sudo fail2ban-client status`
+`sudo fail2ban-client status sshd`
 
 • fail2ban monitors log files and automatically bans IP addresses that show malicious behavior (e.g. repeated failed SSH logins).
 
@@ -106,7 +106,7 @@ sudo fail2ban-client status sshd`
 ## 6. Health Check & Backup Script
 The script scripts/server-health.sh performs the following actions:
 
-• Reports disk, memory and CPU usage
+• Reports disk, memory and CPU usage 
 • Checks whether the SSH service is running
 • Creates a compressed backup of critical configuration directories
 • Rotates old backups (keeps the last 5)
