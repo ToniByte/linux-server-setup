@@ -56,8 +56,8 @@ Run the command in the terminal on your PC.
 
 After that, two files will be created:
 
-~/.ssh/id_ed25519
-~/.ssh/id_ed25519.pub
+`~/.ssh/id_ed25519`  
+`~/.ssh/id_ed25519.pub`  
 
 Copy the contents of this file:
 
